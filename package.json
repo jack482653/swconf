@@ -1,8 +1,11 @@
 {
-  "name": "sciwork-conference-root",
+  "name": "sciwork-conference",
   "version": "0.1.0",
   "private": true,
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "workspaces": [
+    "content/*"
+  ]
 }
