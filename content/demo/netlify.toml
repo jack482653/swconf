@@ -1,0 +1,5 @@
+[build.production]
+  base = "content/demo"
+  publish = "output"
+  build = "env SITEURL=$URL make html"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF"
