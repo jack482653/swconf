@@ -5,7 +5,12 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {},
-  "workspaces": [
-    "content/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  }
 }
